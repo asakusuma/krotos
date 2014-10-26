@@ -1,0 +1,28 @@
+{
+  "name": "krotos",
+  "version": "0.0.1",
+  "author": "Asa Kusuma",
+  "description": "Media server",
+  "contributors": [
+    {
+      "name": "Asa Kusuma",
+      "email": "asa.kusuma@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asakusuma/krotos.git"
+  },
+  "dependencies": {
+    "speaker": "*",
+    "nodetunes": "*",
+    "bufferstream": "*"
+  },
+  "license": "MIT"
+}
